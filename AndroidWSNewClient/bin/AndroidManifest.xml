@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.ws.androidWSNewClient"
+      android:versionCode="1"
+      android:versionName="1.0">
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".AndroidWSNewClientActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".VideoRecordActivity"
+			android:label="videoRecord">
+		</activity>
+		<activity android:name=".VideoPlayActivity"
+			android:label="videoPlay">
+		</activity>
+		<activity android:name=".BuddyListShowActivity"
+			android:label="BuddyListShowActivity">
+		</activity>
+		<activity android:name=".LoginUnsuccessful"
+			android:label="LoginUnsuccessful">
+		</activity>
+		<activity android:name=".CommandTerminalActivity"
+			android:label="CommandTerminalActivity">
+		</activity>
+		<activity android:name=".ViewAllNewsActivity"
+			android:label="ViewAllNewsActivity">
+		</activity>
+		<activity android:name=".ViewNews"
+			android:label="ViewNews">
+		</activity>
+		<activity android:name=".UploadFileActivity"
+			android:label="UploadFileActivity">
+		</activity>
+		<activity android:name=".SignUpActivity"
+			android:label="SignUpActivity">
+		</activity>
+		<activity android:name="AddRelationActivity"
+			android:label="AddRelationActivity">
+		</activity>
+		
+		    
+    </application>
+    
+	<uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- 访问网络的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" /> 
+</manifest>

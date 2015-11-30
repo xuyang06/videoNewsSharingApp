@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Your Name："
+    />
+<EditText 
+	android:id="@+id/login_name"    	
+	android:layout_width="fill_parent"    	
+	android:layout_height="wrap_content"    	
+	android:inputType="textPersonName"    	
+	android:singleLine="true"    	
+	android:hint="Type Your Name Here"    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Your Password："
+    />
+<EditText 
+	android:id="@+id/login_password1"    	
+	android:layout_width="fill_parent"    	
+	android:layout_height="wrap_content"    	
+	android:inputType="textPassword"    	
+	android:singleLine="true" 
+	android:password="true"
+	android:hint="Type Your Password Here"   	    />    
+	
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Repeat Your Password："
+    />
+<EditText 
+	android:id="@+id/login_password2"    	
+	android:layout_width="fill_parent"    	
+	android:layout_height="wrap_content"    	
+	android:inputType="textPassword"    	
+	android:singleLine="true" 
+	android:password="true"
+	android:hint="Repeat Your Password Here"   	    />    
+	
+<LinearLayout
+        style="@android:style/ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/sign_up_btn"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sign Up" />
+
+        <Button 
+ 			android:id="@+id/cancel_btn"    	
+ 			android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"   	
+ 			android:text="Cancel"   	/>
+  </LinearLayout>
+ 
+<TextView 
+	android:id="@+id/result_text"    
+	android:layout_width="wrap_content"     
+	android:layout_height="wrap_content"     
+	android:layout_gravity="center_horizontal|center_vertical"   />
+    
+
+</LinearLayout>

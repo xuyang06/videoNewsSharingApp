@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <SurfaceView
+        android:id="@+id/videoView"
+        android:layout_width="320px"
+        android:layout_height="240px"
+        android:gravity="center_horizontal"
+        android:visibility="visible" />
+	
+	<LinearLayout
+        style="@android:style/ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+		<Button
+		  android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+		  android:text="Start"
+		  android:id="@+id/start"/>  
+		<Button
+		  android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+		  android:layout_toRightOf="@id/start"
+		  android:text="Stop"
+		  android:enabled="false"
+		  android:id="@+id/stop"/>
+		<Button
+		  android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+		  android:layout_toRightOf="@+id/stop"
+		  android:text="Cancel"
+		  android:id="@+id/cancel"/>    
+	</LinearLayout>
+</LinearLayout>

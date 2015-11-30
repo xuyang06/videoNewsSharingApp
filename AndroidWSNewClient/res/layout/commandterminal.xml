@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Welcome to News Broadcast System! Here You can Broadcast Your News Around to Your Friends!"
+    />
+
+<LinearLayout
+    style="@android:style/ButtonBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+  <Button
+            android:id="@+id/addfriend_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Friend" />      
+    
+  
+ <Button 
+ 	android:id="@+id/viewnews_btn"    	
+ 	android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+                	
+ 	android:text="View News"   	/>
+  <Button 
+ 	android:id="@+id/broadcastnews_btn"    	
+ 	android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+              	
+ 	android:text="Broadcast News"   	/>
+ </LinearLayout>   
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidWSNewClientActivity!</string>
+    <string name="app_name">News Broadcast</string>
+   <string name="cancel">Cancel</string>
+    <string name="broadcast">Broadcast News</string>
+    <string name="select_all_text">Select all</string>
+    <string name="clearConfirmation_title">Delete</string>
+    <string name="clearConfirmation">Contacts will be deleted.</string>
+    <string name="clearProgress_title">Deleting....</string>
+</resources>
